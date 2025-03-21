@@ -12,6 +12,10 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation group: 'ch.obermuhlner', name: 'big-math', version: '2.3.2'
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '5.16.1'
+
+
 }
 
 test {
